@@ -85,6 +85,8 @@ public class ExcelDataServiceImpl implements IExcelDataService{
 		int i = noOfColumns;
 		do {
 			Personne inv = new Personne();
+			
+			System.out.println(" "+excelData.get(i)+", "+excelData.get(i + 1) + ", " +excelData.get(i + 2));
 
 			inv.setPrenom(excelData.get(i));
 			inv.setNom(excelData.get(i + 1));
