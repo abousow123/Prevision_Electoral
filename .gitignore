@@ -166,3 +166,4 @@ Prevision/target/classes/org/sid/entities/Personne.class
 Prevision/target/classes/org/sid/PrevisionApplication.class
 Prevision/target/classes/org/sid/web/PrevisionController.class
 Prevision/target/test-classes/org/sid/PrevisionApplicationTests.class
+*.class
